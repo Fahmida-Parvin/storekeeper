@@ -1,0 +1,157 @@
+
+/*
+body {
+    padding-top: 56px; 
+    margin: 0; 
+} 
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 1000;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    background-color: #6db8db;
+    width: 250px; /* Set the width of the sidebar 
+}
+
+.nav-link {
+    color: #06111d;
+    padding: 10px 20px;
+    border-radius: 8px; /* Add rounded corners 
+    transition: background-color 0.3s ease; /* Smooth transition on hover 
+}
+
+.nav-link:hover {
+    color: #007bff;
+    background-color: #e9ecef; /* Light gray background on hover 
+}
+
+.active {
+    font-weight: bold;
+    color: #007bff;
+    background-color: #e9ecef; /* Light gray background for the active item 
+}
+
+.main-content {
+    margin-left: 250px; /* Adjusted to match the width of the sidebar 
+}
+.btn{
+    background-color: #6db8db;
+}  */
+
+body {
+    padding-top: 56px;
+    margin: 0;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 1000;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    background-color: #6db8db;
+    width: 250px;
+}
+
+.nav-link {
+    color: #06111d;
+    padding: 10px 20px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #007bffb3;
+    background-color: #e9ecef;
+}
+
+.active {
+    font-weight: bold;
+    color: #007bffa4;
+    background-color: #e9ecef;
+}
+
+.main-content {
+    margin-left: 250px;
+}
+
+
+.card {
+    margin-bottom: 20px;
+}
+
+.card-body {
+    text-align: center;
+}
+
+.card-title {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #6db8db;
+}
+
+
+.btn {
+    margin-right: 5px;
+}
+
+.table th, .table td {
+    text-align: center;
+}
+
+.table thead th {
+    background-color: #6db8db;
+    color: #fff;
+}
+
+.table-hover tbody tr:hover {
+    background-color: #f8f9fa;
+}
+
+.btn-warning {
+    background-color: #ffc107a6;
+    color: #212529;
+}
+
+.btn-danger {
+    background-color: #dc35469d;
+    color: #fff;
+}
+
+
+.row {
+    margin-bottom: 20px;
+}
+
+.form-label {
+    font-weight: bold;
+}
+
+.form-control {
+    width: 100%;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    color: #fff;
+}
+
+.btn-primary {
+    background-color: #6db8db;
+    color: #fff;
+}
+
+.btn-primary:hover {
+    background-color: #6db8db;
+}
